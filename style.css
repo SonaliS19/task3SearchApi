@@ -1,0 +1,28 @@
+/* body{
+ 
+} */
+main{
+  padding: 24px;
+  min-height: 10px;
+  background-color: rgb(212, 207, 216);
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+
+}
+
+main>div{
+  width: 300px;
+  padding: 16px;
+  background-color: rgb(204, 182, 200);
+  margin: 12px auto;
+  border: 2px double black;
+  border-radius: 20%;
+}
+
+img{
+  max-width: 200px;
+  max-height: 200px;
+}
